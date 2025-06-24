@@ -1,0 +1,24 @@
+# Advanced Usage — cryptoKS.js
+
+This guide is for developers who want to extend `cryptoKS.js`.
+
+## 🔑 Hashing Only
+
+Use SHA-256 hashing:
+
+```js
+const hash = await cryptoKS.hash("mypassword");
+console.log(hash);
+
+
+decrypt the encrypted file
+
+const original = await cryptoKS.decrypt(encrypted, "mySecret");
+
+#Encrypt user details using enc.json
+const encrypted = await cryptoKS.encrypt("Hello", "mySecret");
+Login using downloaded file 
+cryptoKS.loginFromFile(user => {
+  document.getElementById("login").style.display = "none";
+  document.getElementById("welcome").textContent = "Hi " + user.name;
+});
