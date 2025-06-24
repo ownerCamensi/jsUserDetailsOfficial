@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>cryptoKS Tutorial</title>
+  <style>
+    body { font-family: sans-serif; max-width: 700px; margin: auto; padding: 20px; }
+    h1, h2 { color: #444; }
+    code, pre { background: #f3f3f3; padding: 8px; display: block; overflow-x: auto; }
+  </style>
+</head>
+<body>
+
+  <h1>cryptoKS.js Tutorial</h1>
+  <p>This guide shows how to use <strong>cryptoKS.js</strong> to build an offline registration and login system using only HTML and JavaScript.</p>
+
+  <h2>📦 Step 1: Include cryptoKS</h2>
+  <pre><code>&lt;script src="cryptoKS.min.js"&gt;&lt;/script&gt;</code></pre>
+
+  <h2>🔐 Step 2: Register User</h2>
+  <pre><code>
+await cryptoKS.saveUser({
+  name: "John Doe",
+  email: "john@example.com",
+  password: "secret123"
+});
+  </code></pre>
+
+  <h2>🔓 Step 3: Login from File</h2>
+  <pre><code>
+await cryptoKS.loginFromFile(user => {
+  alert("Welcome, " + user.name);
+});
+  </code></pre>
+
+  <h2>💡 Tips</h2>
+  <ul>
+    <li>No backend needed</li>
+    <li>100% offline and secure</li>
+    <li>Works on any browser</li>
+  </ul>
+
+  <p>Made with 💚 by <strong>[Your Name]</strong></p>
+
+</body>
+  </html>
