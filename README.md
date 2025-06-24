@@ -21,7 +21,7 @@ Made for HTML/CSS/JS devs who want registration, login, and file encryption **wi
 <script src="cryptoKS.min.js"></script>
 ```
 ## cryptoKs 
-crypto ks is an offline javascript library no npm no dependencies needs just plug and play this crytoKs is useful for student who want to make portfolio with simple security 
+crypto ks is an offline javascript library no npm no dependencies needs just plug and play this cryptoKs is useful for student who want to make portfolio with simple security 
 ## My name 
 my name is manny if you want to know my full name just click the folder 📁 my details 
 -- I am the c-o and the founder of cryptoKs.js 
